@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA 0023 Learning Diary",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "1  Week 1",
+    "section": "",
+    "text": "1.1 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#applications",
+    "href": "week1.html#applications",
+    "title": "1  Week 1",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications\nRemote sensing, which collects information about the Earth’s surface by assessing reflected and radiated energy over long distances, is now widely used in fields such as agriculture, forestry, climate detection, water resource management, and urban planning.\nA specific example of the application of remote sensing data preprocessing, spectral feature comparison methods learnt in the classroom is the application of remote sensing for surface temperature analysis of land cover change in the Greater Cairo region of Egypt (Aboelnour, M., & Engel, B. A. 2018). The study used Landsat datasets with different temporal dimensions to analyse land cover change through classification and post-classification change detection techniques using remote sensing image preprocessing, image classification, and other methods, in order to help policy makers to predict and plan for the future development of the Greater Cairo region in Egypt, to achieve long term sustainability of soil and water resources, and to cope with the impacts of climate change.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "1  Week 1",
+    "section": "1.3 Reflection",
+    "text": "1.3 Reflection\nWhat impressed me most about this week’s course was the powerful ability that remote sensing technology gives us to observe and understand information about features on the Earth’s surface. For example, the spectral features I extracted from the Sentinel and Landsat datasets in the hands-on class can be used to classify and compare different types of features, and identify the characteristics and distribution of various features on the Earth. In my undergraduate stage, I had studied the course of land management, at that time, the teacher mentioned that remote sensing can be used in land use and cover change detection and other aspects to provide basic information for land planning and management, and this class gave me the opportunity to process remote sensing data and analyse the land cover type of hands-on practice, which gave me a deeper understanding of what I had learnt before, and at the same time, it also made me look forward to the content of the next study, which will bring me more The class has given me a deeper understanding of what I have learnt, and also made me look forward to what I will learn next, which will bring me more inspiration.\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "2  week2",
+    "section": "",
+    "text": "3 1.1 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
