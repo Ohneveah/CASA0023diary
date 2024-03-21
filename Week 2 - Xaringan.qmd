@@ -1,0 +1,10 @@
+# Week 2 - Xaringan {.unnumbered}
+
+Week 2 consisted of a presentation on the Aeolus satellite at Xaringan. The presentation is shown below and the summary, applications and reflections are included in the slides.
+
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://ohneveah.github.io/ppt/#1",
+  ratio = "16:9")
+
+```

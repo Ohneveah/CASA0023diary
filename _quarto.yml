@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: E:/CASA0023diary-main/CASA0023diary-main
+book:
+  title: "CASA 0023 Learning Diary"
+  author: "Xingru Liu"
+  date: "2024/2/22"
+  chapters:
+    - index.qmd
+    - Week 1 - Introduction to Remote Sensing.qmd
+    - Week 2 - Xaringan.qmd
+    - Week 3 - Corrections.qmd
+    - Week 4 - Policy.qmd
+    - Week 5 - Google Earth Engine.qmd
+    - Week 6 - Classification I.qmd
+    - Week 7 - Classification II.qmd
+    - Week 8 - SAR.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

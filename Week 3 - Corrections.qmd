@@ -1,0 +1,43 @@
+# Week 3 - Corrections {.unnumbered}
+
+## 3.1 Summary
+
+![](images/1.jpg){width="1000"}
+
+![](images/2.jpg){width="1000"}
+
+![](images/3.jpg){width="1000"}
+
+![](images/4.jpg){width="1000"}
+
+![](images/5.jpg){width="1000"}
+
+## 3.2 Application
+
+The practice sessions covered remote sensing data processing, atmospheric correction, acquiring and merging images, and enhancements such as ratio analysis, filtering, texture analysis, data fusion, and principal component analysis (PCA). This application section will focus on applications related to the use of atmospheric correction. Atmospheric correction techniques play an important role in the field of environmental monitoring, especially in the quality assessment of marine and inland waters. For example, wang et al. (2024) proposed an atmospheric correction algorithm designed for optically complex water bodies at high solar zenith angles, which utilizes the Extreme Gradient Boosting (XGBoost) technique, which can improve the accuracy and coverage of mapping of suspended solids in the marine environment for monitoring marine and coastal ecosystems affected by human activities and natural factors. In addition, the Atmospheric Correction Algorithm for Inland Waters (ACbTC) utilizes synergistic observations from the Ocean and Land Color Instrument (OLCI) and the Sea and Land Surface Temperature Radiometer (SLSTR) to improve the accuracy of color information in inland waters (Bi et al., 2018). This approach is particularly important for monitoring inland lakes that are increasingly impacted by human pressures and climate change.
+
+![](images/clipboard-1741901937.png){fig-align="center" width="500"}
+
+Comparison of atmospheric corrections for MODIS scenes in the eastern Mediterranean: SMAC vs. PySpectral algorithms (Scheirer et al., 2018)
+
+Atmospheric calibration still has some problems. On the one hand, existing algorithms such as SMAC and CREFL may not be applicable to all sensors, and radiative transfer calculations are time-consuming and costly for real-time operation (Scheirer et al., 2018). In future research, there is a need to continue to improve the calibration consistency between sensors to be improved, and to simplify the algorithms to enhance the feasibility of real-time applications. On the other hand, the existing forecast models are not able to obtain the actual atmospheric aerosol loads accurately enough, affecting the accuracy of satellite retrievals (Scheirer et al., 2018).
+
+## 3.3 Reflection
+
+I must admit that this lecture was difficult for me to understand! Remote sensing imagery is much more complex than I thought it would be, but it was interesting to learn more about how imagery can be processed to show specific things, and how it can be improved to maximize its accuracy and potential. It is clear, however, that there are many ways to enhance, correct, or tweak an image, so it is important to keep specific goals in mind when making these changes. From the lectures and the hands-on content, I found DOS calibration to be particularly interesting - I think it's an ingenious and straightforward approach to atmospheric calibration.
+
+I think it's useful to understand the theory behind the corrections, but I'm not sure it's important to understand the specifics and scientific rationale behind each type, since so much of the data is corrected. Nonetheless, I think it is important in data science and research to not analyze the data as it is, but to think about how the data was created or adjusted. In the future, I will be thinking more about this, whether I am working with remotely sensed data or other types of data.
+
+Throughout this week, remote sensing imagery may contain some errors, but how are these errors corrected and what is the appropriate time to correct them? It is confusing to me. And, how to choose the method of correction and is the remotely sensed data correct after correction? This question put me in deep thought. I feel that if I want to understand and skillfully master various correction methods, I need to read more related books and research, and have a certain amount of knowledge reserve to better understand the data correction.
+
+Secondly, about the connection and enhancement of data. I think this is very interesting. Before, when studying casa0001 to capture the changes of urban development through pictures, if enhancement of satellite images can help us capture some more detailed points. It can also help us to track the development of some things. But it feels that it is still difficult to enhance this technology and innovate the dataset. And, some times, we can't analyze it well based on the images.
+
+I hope that in the subsequent research, we can understand the data filtering and processing methods, as well as and develop our own ability to analyze the pictures.
+
+## 3.4 References
+
+Bi, S., Li, Y. M., Wang, Q., Lyu, H., Liu, G., Zheng, Z. B., Du, C. G., Mu, M., Xu, J., Lei, S. H. and Miao, S. (2018) ‘Inland Water Atmospheric Correction Based on Turbidity Classification Using OLCI and SLSTR Synergistic Observation’, *Remote Sensing*, 16(1), pp. 183.
+
+Scheirer, R., Dybbroe, A. and Raspaud, M. (2018) ‘A General Approach to Enhance Short Wave Satellite Imagery by Removing Background Atmospheric Effects’, *Remote Sensing*, 10(4), pp. 560.
+
+Wang, Y. Q., Liu, H. Z., Zhang, Z. X., Wang, Y. R., Li, Q. Q. and Wu, G. F. (2024) ‘Ocean Colour Atmospheric Correction for Optically Complex Waters under High Solar Zenith Angles: Facilitating Frequent Diurnal Monitoring and Management’, *Remote Sensing*, 16(1), pp. 183.
